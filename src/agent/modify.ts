@@ -122,6 +122,8 @@ function buildModelSettings(
   return settings;
 }
 
+export const buildModelSettingsForTest = buildModelSettings;
+
 /**
  * Updates an agent's model and model settings.
  *
